@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A3CD79044026C038D37903 /* Pods_findmyway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB5F3CD170AA1A972B3776 /* Pods_findmyway.framework */; };
+		2A9ECA0721B5C66900F14B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECA0621B5C66900F14B49 /* AppDelegate.swift */; };
+		2A9ECA0921B5C66900F14B49 /* TicketFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECA0821B5C66900F14B49 /* TicketFinderViewController.swift */; };
+		2A9ECA0C21B5C66900F14B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9ECA0A21B5C66900F14B49 /* Main.storyboard */; };
+		2A9ECA0F21B5C66900F14B49 /* findmyway.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECA0D21B5C66900F14B49 /* findmyway.xcdatamodeld */; };
+		2A9ECA1121B5C66B00F14B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9ECA1021B5C66B00F14B49 /* Assets.xcassets */; };
+		2A9ECA1421B5C66B00F14B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9ECA1221B5C66B00F14B49 /* LaunchScreen.storyboard */; };
+		2A9ECA1F21B5C66B00F14B49 /* findmywayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECA1E21B5C66B00F14B49 /* findmywayTests.swift */; };
+		2A9ECA2A21B5C66B00F14B49 /* findmywayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECA2921B5C66B00F14B49 /* findmywayUITests.swift */; };
+		2A9ECA3C21B5D02900F14B49 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9ECA3B21B5D02900F14B49 /* MapKit.framework */; };
+		2A9ECA3F21B5F80200F14B49 /* TicketResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECA3E21B5F80200F14B49 /* TicketResultViewController.swift */; };
+		2A9ECA4121B6FA1500F14B49 /* ShowDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECA4021B6FA1500F14B49 /* ShowDetailsViewController.swift */; };
+		2A9ECA4421B7291A00F14B49 /* FlightAwareServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECA4321B7291A00F14B49 /* FlightAwareServices.swift */; };
+		52554BE60B4C8221DEE7F452 /* Pods_findmywayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A4B19815A7E90837735A65 /* Pods_findmywayTests.framework */; };
+		7ABD7687F3F97F0B0EAC71BA /* Pods_findmywayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E7CB5C1AD58D88E8967B1B /* Pods_findmywayUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A9ECA1B21B5C66B00F14B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A9EC9FB21B5C66900F14B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A9ECA0221B5C66900F14B49;
+			remoteInfo = findmyway;
+		};
+		2A9ECA2621B5C66B00F14B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A9EC9FB21B5C66900F14B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A9ECA0221B5C66900F14B49;
+			remoteInfo = findmyway;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2301B34E5AB8F1094E4992DC /* Pods-findmyway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-findmyway.debug.xcconfig"; path = "Pods/Target Support Files/Pods-findmyway/Pods-findmyway.debug.xcconfig"; sourceTree = "<group>"; };
+		24E7CB5C1AD58D88E8967B1B /* Pods_findmywayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_findmywayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9ECA0321B5C66900F14B49 /* findmyway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = findmyway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9ECA0621B5C66900F14B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A9ECA0821B5C66900F14B49 /* TicketFinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketFinderViewController.swift; sourceTree = "<group>"; };
+		2A9ECA0B21B5C66900F14B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A9ECA0E21B5C66900F14B49 /* findmyway.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = findmyway.xcdatamodel; sourceTree = "<group>"; };
+		2A9ECA1021B5C66B00F14B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A9ECA1321B5C66B00F14B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A9ECA1521B5C66B00F14B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9ECA1A21B5C66B00F14B49 /* findmywayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = findmywayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9ECA1E21B5C66B00F14B49 /* findmywayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findmywayTests.swift; sourceTree = "<group>"; };
+		2A9ECA2021B5C66B00F14B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9ECA2521B5C66B00F14B49 /* findmywayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = findmywayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9ECA2921B5C66B00F14B49 /* findmywayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findmywayUITests.swift; sourceTree = "<group>"; };
+		2A9ECA2B21B5C66B00F14B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9ECA3721B5CF6000F14B49 /* findmyway.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = findmyway.entitlements; sourceTree = "<group>"; };
+		2A9ECA3B21B5D02900F14B49 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2A9ECA3E21B5F80200F14B49 /* TicketResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketResultViewController.swift; sourceTree = "<group>"; };
+		2A9ECA4021B6FA1500F14B49 /* ShowDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsViewController.swift; sourceTree = "<group>"; };
+		2A9ECA4321B7291A00F14B49 /* FlightAwareServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAwareServices.swift; sourceTree = "<group>"; };
+		A92E32CD0315FC392303BD00 /* Pods-findmyway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-findmyway.release.xcconfig"; path = "Pods/Target Support Files/Pods-findmyway/Pods-findmyway.release.xcconfig"; sourceTree = "<group>"; };
+		B2BB5F3CD170AA1A972B3776 /* Pods_findmyway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_findmyway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38EFC562989F7F611A4BD11 /* Pods-findmywayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-findmywayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-findmywayUITests/Pods-findmywayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D46F0A0C4713D5FE7F3F0C74 /* Pods-findmywayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-findmywayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-findmywayTests/Pods-findmywayTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2007E161586A63554954397 /* Pods-findmywayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-findmywayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-findmywayTests/Pods-findmywayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2A4B19815A7E90837735A65 /* Pods_findmywayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_findmywayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E459FC7634F0A369E8FA1EF6 /* Pods-findmywayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-findmywayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-findmywayUITests/Pods-findmywayUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A9ECA0021B5C66900F14B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9ECA3C21B5D02900F14B49 /* MapKit.framework in Frameworks */,
+				02A3CD79044026C038D37903 /* Pods_findmyway.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9ECA1721B5C66B00F14B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52554BE60B4C8221DEE7F452 /* Pods_findmywayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9ECA2221B5C66B00F14B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABD7687F3F97F0B0EAC71BA /* Pods_findmywayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A9EC9FA21B5C66900F14B49 = {
+			isa = PBXGroup;
+			children = (
+				2A9ECA0521B5C66900F14B49 /* findmyway */,
+				2A9ECA1D21B5C66B00F14B49 /* findmywayTests */,
+				2A9ECA2821B5C66B00F14B49 /* findmywayUITests */,
+				2A9ECA0421B5C66900F14B49 /* Products */,
+				2A9ECA3821B5CFDD00F14B49 /* Frameworks */,
+				778AB9FE26E6D057084D873E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2A9ECA0421B5C66900F14B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A9ECA0321B5C66900F14B49 /* findmyway.app */,
+				2A9ECA1A21B5C66B00F14B49 /* findmywayTests.xctest */,
+				2A9ECA2521B5C66B00F14B49 /* findmywayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A9ECA0521B5C66900F14B49 /* findmyway */ = {
+			isa = PBXGroup;
+			children = (
+				2A9ECA4221B728ED00F14B49 /* Services */,
+				2A9ECA3D21B5F77D00F14B49 /* Views */,
+				2A9ECA3721B5CF6000F14B49 /* findmyway.entitlements */,
+				2A9ECA0621B5C66900F14B49 /* AppDelegate.swift */,
+				2A9ECA0A21B5C66900F14B49 /* Main.storyboard */,
+				2A9ECA1021B5C66B00F14B49 /* Assets.xcassets */,
+				2A9ECA1221B5C66B00F14B49 /* LaunchScreen.storyboard */,
+				2A9ECA1521B5C66B00F14B49 /* Info.plist */,
+				2A9ECA0D21B5C66900F14B49 /* findmyway.xcdatamodeld */,
+			);
+			path = findmyway;
+			sourceTree = "<group>";
+		};
+		2A9ECA1D21B5C66B00F14B49 /* findmywayTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A9ECA1E21B5C66B00F14B49 /* findmywayTests.swift */,
+				2A9ECA2021B5C66B00F14B49 /* Info.plist */,
+			);
+			path = findmywayTests;
+			sourceTree = "<group>";
+		};
+		2A9ECA2821B5C66B00F14B49 /* findmywayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A9ECA2921B5C66B00F14B49 /* findmywayUITests.swift */,
+				2A9ECA2B21B5C66B00F14B49 /* Info.plist */,
+			);
+			path = findmywayUITests;
+			sourceTree = "<group>";
+		};
+		2A9ECA3821B5CFDD00F14B49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A9ECA3B21B5D02900F14B49 /* MapKit.framework */,
+				B2BB5F3CD170AA1A972B3776 /* Pods_findmyway.framework */,
+				E2A4B19815A7E90837735A65 /* Pods_findmywayTests.framework */,
+				24E7CB5C1AD58D88E8967B1B /* Pods_findmywayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A9ECA3D21B5F77D00F14B49 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A9ECA0821B5C66900F14B49 /* TicketFinderViewController.swift */,
+				2A9ECA3E21B5F80200F14B49 /* TicketResultViewController.swift */,
+				2A9ECA4021B6FA1500F14B49 /* ShowDetailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A9ECA4221B728ED00F14B49 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2A9ECA4321B7291A00F14B49 /* FlightAwareServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		778AB9FE26E6D057084D873E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2301B34E5AB8F1094E4992DC /* Pods-findmyway.debug.xcconfig */,
+				A92E32CD0315FC392303BD00 /* Pods-findmyway.release.xcconfig */,
+				E2007E161586A63554954397 /* Pods-findmywayTests.debug.xcconfig */,
+				D46F0A0C4713D5FE7F3F0C74 /* Pods-findmywayTests.release.xcconfig */,
+				B38EFC562989F7F611A4BD11 /* Pods-findmywayUITests.debug.xcconfig */,
+				E459FC7634F0A369E8FA1EF6 /* Pods-findmywayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A9ECA0221B5C66900F14B49 /* findmyway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9ECA2E21B5C66B00F14B49 /* Build configuration list for PBXNativeTarget "findmyway" */;
+			buildPhases = (
+				77295341C2A94B41B25DB348 /* [CP] Check Pods Manifest.lock */,
+				2A9EC9FF21B5C66900F14B49 /* Sources */,
+				2A9ECA0021B5C66900F14B49 /* Frameworks */,
+				2A9ECA0121B5C66900F14B49 /* Resources */,
+				9BDDE92A571A42BB029C0D0D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = findmyway;
+			productName = findmyway;
+			productReference = 2A9ECA0321B5C66900F14B49 /* findmyway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A9ECA1921B5C66B00F14B49 /* findmywayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9ECA3121B5C66B00F14B49 /* Build configuration list for PBXNativeTarget "findmywayTests" */;
+			buildPhases = (
+				CE548E298562B4E2357D7FC5 /* [CP] Check Pods Manifest.lock */,
+				2A9ECA1621B5C66B00F14B49 /* Sources */,
+				2A9ECA1721B5C66B00F14B49 /* Frameworks */,
+				2A9ECA1821B5C66B00F14B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A9ECA1C21B5C66B00F14B49 /* PBXTargetDependency */,
+			);
+			name = findmywayTests;
+			productName = findmywayTests;
+			productReference = 2A9ECA1A21B5C66B00F14B49 /* findmywayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A9ECA2421B5C66B00F14B49 /* findmywayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9ECA3421B5C66B00F14B49 /* Build configuration list for PBXNativeTarget "findmywayUITests" */;
+			buildPhases = (
+				684577242B78A79483ADC2A8 /* [CP] Check Pods Manifest.lock */,
+				2A9ECA2121B5C66B00F14B49 /* Sources */,
+				2A9ECA2221B5C66B00F14B49 /* Frameworks */,
+				2A9ECA2321B5C66B00F14B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A9ECA2721B5C66B00F14B49 /* PBXTargetDependency */,
+			);
+			name = findmywayUITests;
+			productName = findmywayUITests;
+			productReference = 2A9ECA2521B5C66B00F14B49 /* findmywayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A9EC9FB21B5C66900F14B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Megha Gupta";
+				TargetAttributes = {
+					2A9ECA0221B5C66900F14B49 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 0;
+							};
+							com.apple.AutoFillCredentialProvider = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					2A9ECA1921B5C66B00F14B49 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2A9ECA0221B5C66900F14B49;
+					};
+					2A9ECA2421B5C66B00F14B49 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2A9ECA0221B5C66900F14B49;
+					};
+				};
+			};
+			buildConfigurationList = 2A9EC9FE21B5C66900F14B49 /* Build configuration list for PBXProject "findmyway" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A9EC9FA21B5C66900F14B49;
+			productRefGroup = 2A9ECA0421B5C66900F14B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9ECA0221B5C66900F14B49 /* findmyway */,
+				2A9ECA1921B5C66B00F14B49 /* findmywayTests */,
+				2A9ECA2421B5C66B00F14B49 /* findmywayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9ECA0121B5C66900F14B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9ECA1421B5C66B00F14B49 /* LaunchScreen.storyboard in Resources */,
+				2A9ECA1121B5C66B00F14B49 /* Assets.xcassets in Resources */,
+				2A9ECA0C21B5C66900F14B49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9ECA1821B5C66B00F14B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9ECA2321B5C66B00F14B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		684577242B78A79483ADC2A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-findmywayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77295341C2A94B41B25DB348 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-findmyway-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDDE92A571A42BB029C0D0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-findmyway/Pods-findmyway-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-findmyway/Pods-findmyway-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE548E298562B4E2357D7FC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-findmywayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A9EC9FF21B5C66900F14B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9ECA0921B5C66900F14B49 /* TicketFinderViewController.swift in Sources */,
+				2A9ECA4121B6FA1500F14B49 /* ShowDetailsViewController.swift in Sources */,
+				2A9ECA4421B7291A00F14B49 /* FlightAwareServices.swift in Sources */,
+				2A9ECA0F21B5C66900F14B49 /* findmyway.xcdatamodeld in Sources */,
+				2A9ECA3F21B5F80200F14B49 /* TicketResultViewController.swift in Sources */,
+				2A9ECA0721B5C66900F14B49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9ECA1621B5C66B00F14B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9ECA1F21B5C66B00F14B49 /* findmywayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9ECA2121B5C66B00F14B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9ECA2A21B5C66B00F14B49 /* findmywayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A9ECA1C21B5C66B00F14B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A9ECA0221B5C66900F14B49 /* findmyway */;
+			targetProxy = 2A9ECA1B21B5C66B00F14B49 /* PBXContainerItemProxy */;
+		};
+		2A9ECA2721B5C66B00F14B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A9ECA0221B5C66900F14B49 /* findmyway */;
+			targetProxy = 2A9ECA2621B5C66B00F14B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A9ECA0A21B5C66900F14B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9ECA0B21B5C66900F14B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A9ECA1221B5C66B00F14B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9ECA1321B5C66B00F14B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A9ECA2C21B5C66B00F14B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A9ECA2D21B5C66B00F14B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A9ECA2F21B5C66B00F14B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2301B34E5AB8F1094E4992DC /* Pods-findmyway.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K5D25USYR;
+				INFOPLIST_FILE = findmyway/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alaskaair.findmyway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A9ECA3021B5C66B00F14B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92E32CD0315FC392303BD00 /* Pods-findmyway.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K5D25USYR;
+				INFOPLIST_FILE = findmyway/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alaskaair.findmyway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A9ECA3221B5C66B00F14B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2007E161586A63554954397 /* Pods-findmywayTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = findmywayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alaskaair.findmywayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/findmyway.app/findmyway";
+			};
+			name = Debug;
+		};
+		2A9ECA3321B5C66B00F14B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46F0A0C4713D5FE7F3F0C74 /* Pods-findmywayTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = findmywayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alaskaair.findmywayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/findmyway.app/findmyway";
+			};
+			name = Release;
+		};
+		2A9ECA3521B5C66B00F14B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38EFC562989F7F611A4BD11 /* Pods-findmywayUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = findmywayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alaskaair.findmywayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = findmyway;
+			};
+			name = Debug;
+		};
+		2A9ECA3621B5C66B00F14B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E459FC7634F0A369E8FA1EF6 /* Pods-findmywayUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = findmywayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alaskaair.findmywayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = findmyway;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A9EC9FE21B5C66900F14B49 /* Build configuration list for PBXProject "findmyway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9ECA2C21B5C66B00F14B49 /* Debug */,
+				2A9ECA2D21B5C66B00F14B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9ECA2E21B5C66B00F14B49 /* Build configuration list for PBXNativeTarget "findmyway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9ECA2F21B5C66B00F14B49 /* Debug */,
+				2A9ECA3021B5C66B00F14B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9ECA3121B5C66B00F14B49 /* Build configuration list for PBXNativeTarget "findmywayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9ECA3221B5C66B00F14B49 /* Debug */,
+				2A9ECA3321B5C66B00F14B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9ECA3421B5C66B00F14B49 /* Build configuration list for PBXNativeTarget "findmywayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9ECA3521B5C66B00F14B49 /* Debug */,
+				2A9ECA3621B5C66B00F14B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A9ECA0D21B5C66900F14B49 /* findmyway.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A9ECA0E21B5C66900F14B49 /* findmyway.xcdatamodel */,
+			);
+			currentVersion = 2A9ECA0E21B5C66900F14B49 /* findmyway.xcdatamodel */;
+			path = findmyway.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A9EC9FB21B5C66900F14B49 /* Project object */;
+}

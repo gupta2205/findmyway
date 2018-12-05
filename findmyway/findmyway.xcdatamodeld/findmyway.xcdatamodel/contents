@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AirportEntity" representedClassName="AirportEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="airportCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airportName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AirportObjectEntity" representedClassName="AirportObjectEntity" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="AirportEntity" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="AirportObjectEntity" positionX="-54" positionY="9" width="128" height="45"/>
+    </elements>
+</model>

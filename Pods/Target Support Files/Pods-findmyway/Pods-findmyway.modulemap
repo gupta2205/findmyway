@@ -1,0 +1,6 @@
+framework module Pods_findmyway {
+  umbrella header "Pods-findmyway-umbrella.h"
+
+  export *
+  module * { export * }
+}
