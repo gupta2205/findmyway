@@ -20,9 +20,7 @@ class TicketFinderViewController: UIViewController, UITextViewDelegate {
         
        print("CalenderDate.date----",CalenderDate.date)
         print(CalenderDate.date.timeIntervalSince1970)
-        // Do any additional setup after loading the view.
         
-        // Do any additional setup after loading the view, typically from a nib.
         TicketTextView.delegate = self
     }
     
@@ -36,13 +34,7 @@ class TicketFinderViewController: UIViewController, UITextViewDelegate {
     }
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-        
-        if isValidPNR(){
-            return true
-        } else {
-            return false
-            
-        }
+        return true
     }
     
     @IBAction func ticketButtonDidBeginEditing(_ sender: Any) {
@@ -62,7 +54,6 @@ class TicketFinderViewController: UIViewController, UITextViewDelegate {
     
     @IBAction func CaldenderDateSelectEndEditing(_ sender: Any) {
         let newDate = CalenderDate.date.addingTimeInterval(1970)
-        print(newDate, "new date ----------")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

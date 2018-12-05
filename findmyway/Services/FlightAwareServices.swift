@@ -22,7 +22,7 @@ class FlightAwareServices {
         var returnResponse: JSON = ""
         let username = "kimate"
         let password = "6ea9e24e929403785d2f2bd99684a76fda3aed14"
-        let fxmlUrl = "https://flightxml.flightaware.com/json/FlightXML3/FlightInfoStatus?ident=ASA1388&include_ex_data=true"
+        let fxmlUrl = "https://flightxml.flightaware.com/json/FlightXML3/FlightInfoStatus?ident=ASA" + PNR + "&include_ex_data=true"
         //"https://flightxml.flightaware.com/json/FlightXML3/AirlineFlightSchedules?start_date=1543968626&end_date=1544141426&airline=ASA"
         //"https://flightxml.flightaware.com/json/FlightXML3/WeatherConditions?airport_code=KJFK&weather_date=0&howMany=1&offset=0"
         //

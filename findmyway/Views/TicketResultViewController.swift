@@ -37,6 +37,7 @@ class TicketResultViewController: UIViewController {
                 inputFormatter.dateFormat = "MM/dd/yyyy"
                 let showDate = inputFormatter.date(from: testDate)
                 inputFormatter.dateFormat = "yyyy-MM-dd"
+                
                 let resultString = inputFormatter.string(from: showDate!)
                 let resultString2 = inputFormatter.string(from: self.dates)
                 
