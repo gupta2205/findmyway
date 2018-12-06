@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class TicketFinderViewController: UIViewController, UITextViewDelegate {
 
@@ -17,25 +18,14 @@ class TicketFinderViewController: UIViewController, UITextViewDelegate {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       print("CalenderDate.date----",CalenderDate.date)
-        print(CalenderDate.date.timeIntervalSince1970)
-        
+       
         TicketTextView.delegate = self
     }
     
-    func isValidPNR() -> Bool {
-        let ticket = TicketTextView.text!
-        if(ticket.count == 6){
-            return true
-        } else {
-            return false
-        }
-    }
-    
-    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-        return true
-    }
+   
+//    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+//        return true
+//    }
     
     @IBAction func ticketButtonDidBeginEditing(_ sender: Any) {
         

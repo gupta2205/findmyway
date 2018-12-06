@@ -5,8 +5,15 @@
         <attribute name="airportName" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="AirportObjectEntity" representedClassName="AirportObjectEntity" syncable="YES" codeGenerationType="class"/>
+    <entity name="FlightEntity" representedClassName="FlightEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="arrivalGate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departureDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="departureGate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flightNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
         <element name="AirportEntity" positionX="-63" positionY="-18" width="128" height="75"/>
         <element name="AirportObjectEntity" positionX="-54" positionY="9" width="128" height="45"/>
+        <element name="FlightEntity" positionX="-18" positionY="36" width="128" height="105"/>
     </elements>
 </model>

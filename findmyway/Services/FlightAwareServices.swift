@@ -18,7 +18,7 @@ class FlightAwareServices {
     var z:String = ""
     var delegate:FlightAwareServices?
     
-    func AlamofireCall(PNR: String, callback: @escaping (JSON) -> Void )   {
+    func AlamofireCall(PNR: String,dates: Date, callback: @escaping (JSON) -> Void )   {
         var returnResponse: JSON = ""
         let username = "kimate"
         let password = "6ea9e24e929403785d2f2bd99684a76fda3aed14"
